@@ -10,7 +10,7 @@ The analysis follows the funnel:
 
 **Views → Cart → Checkout → Payment → Purchase**
 
-The project demonstrates practical SQL skills including **CTEs, CASE statements, COUNT DISTINCT, aggregations, and conversion/drop-off calculations**.
+The project demonstrates practical SQL skills including **CTEs, CASE statements, COUNT DISTINCT, aggregations, Window Functions  and conversion/drop-off calculations**.
 
 ---
 

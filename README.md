@@ -250,7 +250,7 @@ The dashboard can include:
 
 
 ```markdown
-![Sales Funnel Dashboard](screenshots/04_powerbi_dashboard.png)
+[![Sales Funnel Dashboard](screenshots/04_powerbi_dashboard.png)](https://github.com/ruparaveenab/sales-funnel-analysis-bigquery-PowerBI/blob/main/screenshots/BigQuery_dataset.png)
 ```
 
 ---

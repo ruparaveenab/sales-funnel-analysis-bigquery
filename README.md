@@ -55,15 +55,19 @@ sales-funnel-analysis-bigquery/
 |   ├── 06_Drop_off_analysis.sql
 |   
 ├── results/
-│   └── Conersion_rate_results.csv
-│   ├── Revenue_analysis.sql
-|   ├── avg_time_funnel_stages.sql
-|   ├── source_conversion_rates.sql
+│   └── Conversion_rate_results.csv
+│   ├── Revenue_analysis.csv
+|   ├── avg_time_at_funnel_stages.csv
+|   ├── source_conversion_rates.csv
+|   ├── Final_Conversion_analysis.csv
+|   ├── Final_results.csv
 |    
 └── screenshots/
     ├── Conversion_drop_off_rates.png
     ├── funnel_stages.png
     ├── Power BI dashboard.png
+    ├── BigQuery_dataset.png
+    ├── Funnel_SQL_Results.png
 
  ```  
 

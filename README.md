@@ -296,7 +296,7 @@ This project demonstrates the following SQL concepts:
 
 ### BigQuery Dataset
 
-
+https://github.com/ruparaveenab/sales-funnel-analysis-bigquery-PowerBI/blob/main/screenshots/BigQuery_dataset.png
 
 ### Data Exploration
 

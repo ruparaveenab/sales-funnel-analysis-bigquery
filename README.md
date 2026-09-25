@@ -1,4 +1,4 @@
-Sales Funnel Analysis using SQL & BigQuery
+Sales Funnel Analysis using SQL-BigQuery & Power BI
 
 Project Overview
 

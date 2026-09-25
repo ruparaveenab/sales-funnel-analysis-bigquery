@@ -340,7 +340,7 @@ Power BI Visualization
 
 Aspiring Data Analyst | SQL | Power BI | Excel | BigQuery
 
-GitHub: 
+GitHub: https://github.com/ruparaveenab
 
 LinkedIn: 
 

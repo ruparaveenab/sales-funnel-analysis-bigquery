@@ -4,7 +4,7 @@ Project Overview
 
 This project analyzes an e-commerce sales funnel using **SQL in Google BigQuery**.
 
-The objective is to understand how users move through different stages of the customer journey, identify where users drop off, and calculate conversion rates at each stage.
+The objective is to understand how users move through different stages of the customer journey, identify where users drop off, and calculate conversion rates at each stage and also give final Recommendations from the insights.
 
 The analysis follows the funnel:
 
@@ -133,12 +133,12 @@ Current Stage Users / Previous Stage Users × 100
 Example:
 
 ```text
-Product View = 7,500
-Add to Cart  = 5,500
+Page View = 5,000
+Add to Cart  = 1,553
 
 Conversion Rate =
-5,500 / 7,500 × 100
-= 73.33%
+1,553 / 5,000 × 100
+= 31.03%
 ```
 
 ---
@@ -157,12 +157,12 @@ Previous Stage Users - Current Stage Users
 Example:
 
 ```text
-Product View = 7,500
-Add to Cart  = 5,500
+Page View = 5,000
+Add to Cart  = 1,553
 
 Drop-off =
-7,500 - 5,500
-= 2,000 users
+5000 - 1553
+= 3447 users
 ```
 
 ---
@@ -183,8 +183,8 @@ Previous Stage Users × 100
 Example:
 
 ```text
-(7,500 - 5,500) / 7,500 × 100
-= 26.67%
+(5,000 - 1,553) / 5,000 × 100
+= 68.94%
 ```
 
 ---
@@ -193,15 +193,21 @@ Example:
 
 Example output:
 
+stage_order	stage	users	conversion_percentage	drop_off	drop_off_percentage	Revenue
+1	1	page_views	5000	100.0	0	0.0	0.0
+2	2	add_to_cart	1553	31.06	3447	68.94	0.0
+3	3	checkout	1103	71.02	450	28.98	0.0
+4	4	payment_info	899	81.5	204	18.5	0.0
+5	5	purchase	826	91.88	73	8.12	87975.10999999994
+
 | Stage        |  Users | Conversion % | Drop-off | Drop-off % |
 | ------------ | -----: | -----------: | -------: | ---------: |
-| Visit        | 10,000 |      100.00% |        - |          - |
-| Product View |  7,500 |       75.00% |    2,500 |     25.00% |
-| Add to Cart  |  5,500 |       73.33% |    2,000 |     26.67% |
-| Checkout     |  4,000 |       72.73% |    1,500 |     27.27% |
-| Purchase     |  3,000 |       75.00% |    1,000 |     25.00% |
+| page_views   |  5,000 |      100.00% |        - |          - |
+| add_to_cart  |  1,553 |       31.06% |    3,447 |     68.94% |
+| checkout     |  1,103 |       71.02% |    450   |     28.98% |
+| payment_info |  899   |       81.50% |    204   |     18.50% |
+| purchase     |  826   |       91.88% |    73    |     8.12%  |
 
-> **Note:** The values above are example results. The actual results depend on the dataset used for the project.
 
 ---
 
@@ -219,27 +225,28 @@ For example, if the largest drop-off occurs between **Product View and Add to Ca
 
 ---
 
+## Final Recommendations
+
+
+
 ## 📈 Power BI Dashboard
 
-The SQL results can also be connected to Power BI to create an interactive dashboard.
+The SQL results are connected to Power BI to create an interactive dashboard.
 
 The dashboard can include:
 
 * Total Visitors
-* Product Views
 * Add-to-Cart Users
 * Checkout Users
 * Purchases
 * Overall Conversion Rate
 * Funnel Chart
-* Stage-wise Drop-off
+* Stage-wise Drop-off 
 * Conversion by Marketing Channel
-* Conversion by Device
 * Date-based analysis
 
 ### Dashboard Preview
 
-Add your screenshot here:
 
 ```markdown
 ![Sales Funnel Dashboard](screenshots/04_powerbi_dashboard.png)
@@ -249,7 +256,7 @@ Add your screenshot here:
 
 ## 📁 Dataset
 
-The project uses an e-commerce funnel dataset containing user activity across different stages of the customer journey.
+The project uses an Sales dataset containing user activity across different stages of the customer journey.
 
 Key fields include:
 
@@ -258,8 +265,7 @@ user_id
 stage
 event_timestamp
 ```
-
-A representative sample dataset is included in the `data/` folder.
+A representative dataset is included in the `data/` folder.
 
 ---
 
@@ -333,7 +339,7 @@ Power BI Visualization
 
 Aspiring Data Analyst | SQL | Power BI | Excel | BigQuery
 
-GitHub: [Add your GitHub profile link here]
+GitHub: 
 
-LinkedIn: [Add your LinkedIn profile link here]
+LinkedIn: 
 

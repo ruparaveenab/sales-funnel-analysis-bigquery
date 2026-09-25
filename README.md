@@ -296,19 +296,19 @@ This project demonstrates the following SQL concepts:
 
 ### BigQuery Dataset
 
-![BigQuery Tables](screenshots/01_bigquery_tables.png)
+
 
 ### Data Exploration
 
-![Data Exploration](screenshots/02_data_exploration.png)
+https://github.com/ruparaveenab/sales-funnel-analysis-bigquery-PowerBI/blob/main/screenshots/funnel_stages.png
 
 ### Funnel SQL Results
 
-![Funnel SQL Results](screenshots/03_funnel_sql_results.png)
+https://github.com/ruparaveenab/sales-funnel-analysis-bigquery-PowerBI/blob/main/screenshots/Funnel_SQL_Results.png
 
 ### Power BI Dashboard
 
-![Power BI Dashboard](screenshots/04_powerbi_dashboard.png)
+https://github.com/ruparaveenab/sales-funnel-analysis-bigquery-PowerBI/blob/main/screenshots/Power%20BI%20Dashboard.png
 
 ---
 

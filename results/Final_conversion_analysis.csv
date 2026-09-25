@@ -1,0 +1,6 @@
+stage_order,stage,users,conversion_percentage,drop_off,drop_off_percentage,Revenue
+1,page_views,5000,100.0,0,0.0,0.0
+2,add_to_cart,1553,31.06,3447,68.94,0.0
+3,checkout,1103,71.02,450,28.98,0.0
+4,payment_info,899,81.5,204,18.5,0.0
+5,purchase,826,91.88,73,8.12,87975.109999999942

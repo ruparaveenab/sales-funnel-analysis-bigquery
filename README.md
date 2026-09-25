@@ -38,7 +38,7 @@ The main objective of this analysis is to answer:
 
  📂 Project Structure
 
-
+```text
 sales-funnel-analysis-bigquery/
 │
 ├── README.md
@@ -64,7 +64,8 @@ sales-funnel-analysis-bigquery/
     ├── Conversion_drop_off_rates.png
     ├── funnel_stages.png
     ├── Power BI dashboard.png
-    
+
+ ```  
 
  📊 Funnel Stages
 
